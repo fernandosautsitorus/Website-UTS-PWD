@@ -1,0 +1,335 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 140px;
+    border-radius: 100px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Courier New';
+    color: #ED9455;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFBDA;
+    z-index: 1;
+    border-bottom: 1px solid #ED9455;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #ED9455;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ED9455;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #ED9455;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #FF6500;
+    text-decoration: none;
+}
+
+a.tbl-orange {
+    background: #FF6500;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-orange:hover{
+    background: #0fff27;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.Dosen-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.kartu-Dosen-list {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-Dosen-list img {
+    width: 120%;
+    border-radius: 80%;
+}
+
+.kartu-Dosen-list p {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 20px;
+    color: #0e296c;
+    margin-left: 100px;
+}
+.dosendosenlist {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-left: 50px;
+}
+
+.kartudosendosenlist {
+    width: 20%;
+    margin: auto;
+}
+
+.kartudosendosenlist p {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 20px;
+    color: #0e296c;
+    margin-left: 100px;
+}
+
+.prodi li {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-family: 'courier new';
+}
+
+h3 {
+    color: #0e296c;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ol {
+    text-align: left;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+p .deskripsi {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #ED9455;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(125px));
+    margin: 0;
+    align-items: center;
+    grid-gap: 10px;
+}
+img{
+    object-fit: cover;
+}
+.grid > img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.grid > img:hover{
+    /*transform: rotate(15deg);*/
+    /*transform: scale(0.5);*/
+    transform: scale(1.2); /*zoom*/
+    /*transform: translate(50px);*/
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container img {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+}
+
+#contact {
+    background: #938e8e;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 30px;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'courier new';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #0e296c;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media  and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-Dosen-list {
+        width: 50%;
+    }
+
+    .kartudosendosenlist {
+        width: 50%;
+    }
+
+}
+    
+}
